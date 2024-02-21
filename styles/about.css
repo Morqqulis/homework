@@ -1,0 +1,14 @@
+section p:last-child {
+	background-color: rgba(202, 61, 61, 0.664);
+	color: rgb(2, 7, 24);
+	font-size: 2rem;
+	padding: 10px 15px;
+}
+section h1 {
+	font-size: 3rem;
+}
+
+footer > div > span:nth-child(3) {
+	font-size: 2rem;
+	color: gold;
+}

@@ -1,0 +1,23 @@
+section > div {
+	text-align: center;
+	background-color: darkgreen;
+	max-width: fit-content;
+	padding: 20px;
+	margin-inline: auto;
+}
+section > div picture > img {
+	border: 2px solid rgb(250, 36, 7);
+}
+
+section > div picture:nth-child(2) img {
+	max-height: 180px;
+}
+
+section > div picture:not(:last-child) {
+	margin-right: 20px;
+}
+
+footer > div > span:first-child {
+	font-size: 2rem;
+	color: gold;
+}

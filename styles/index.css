@@ -1,0 +1,19 @@
+
+section p:first-child {
+	font-size: 2rem;
+}
+section p:nth-child(2) {
+	border: 3px solid gold;
+	padding: 20px;
+	background-color: darkblue;
+}
+section p:last-child {
+	border: 3px solid red;
+	padding: 20px 30px;
+	background-color: darkgreen;
+}
+
+footer > div > span:last-child {
+	font-size: 2rem;
+	color: gold;
+}

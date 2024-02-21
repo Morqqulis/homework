@@ -1,0 +1,67 @@
+/* ============Global=========== */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header,
+footer {
+	border: 3px solid rgb(128, 0, 70);
+	padding: 40px;
+}
+
+section {
+	background-color: #978d72;
+	padding: 40px;
+	margin-block: 25px;
+	color: #fff;
+}
+
+/* / */
+
+/* =======Header=========== */
+
+header {
+	background-color: #464646;
+}
+header > div > div {
+	padding: 5px 0;
+}
+header > div > div > span:first-child {
+	margin-right: 25px;
+}
+header span:first-child a,
+header span:last-child a {
+	font-size: 1.5rem;
+	color: rgb(212, 199, 11);
+}
+header > div > span:first-child a {
+	color: rgb(238, 5, 5);
+}
+header > div > span:last-child a {
+	color: rgb(46, 199, 0);
+	font-size: 2rem;
+	padding-left: 40px;
+}
+/* / */
+
+/* =======Footer=========== */
+
+footer {
+	background-color: #0655ff;
+	padding: 40px;
+}
+
+footer > div {
+	background-color: rgb(238, 125, 125);
+	margin: 0 auto;
+	padding: 20px 10px;
+	max-width: fit-content;
+}
+footer > div > span {
+}
+
+footer > div > span:not(:last-child) {
+	padding-right: 40px;
+}
+/* / */
